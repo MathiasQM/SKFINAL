@@ -1,0 +1,14 @@
+# mod_rewrite starts header
+RewriteEngine on
+
+# Does not applt ro existing directories
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Check for file in directory, with .html extension
+RewriteCond %{REQUEST_FILENAME}\.html -f
+
+# Here we actually show the page that has the .html extension
+
+RewriteRule ^(.*)$ $1.html [NC,L]
+
+DirectoryIndex home.html

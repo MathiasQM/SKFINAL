@@ -422,7 +422,7 @@ p > span {
 
 .videosektion {
     width: 100vw;
-    height: 1000px;
+    margin-bottom: 150px;
 }
 
 .videosektion h1 {
