@@ -221,6 +221,7 @@ h1 {
     font-size: 40px;
     text-transform: uppercase;
     margin-bottom: 20px;
+    margin-left: -5px;
 }
 
 h2 {
