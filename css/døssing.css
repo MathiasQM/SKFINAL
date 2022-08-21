@@ -448,12 +448,6 @@ p > span {
     -webkit-display: flex;
 }
 
-.videocontainer video {
-    width: 100%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
 .featurevideo {
     flex-grow: 1;
 }
