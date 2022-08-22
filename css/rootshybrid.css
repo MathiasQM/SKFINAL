@@ -265,10 +265,16 @@ h4 {
 
 .project-description>p {
     width: 50%;
+    font-family: obviously;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .project-description-m>p {
     width: 93%;
+    font-family: obviously;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .tekst {
@@ -442,7 +448,7 @@ p > span {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    width: 90%;
+    width: 100%;
     padding-bottom: 150px;
 }
 
@@ -456,6 +462,7 @@ p > span {
 .featurevideo {
     flex-grow: 1;
     padding-bottom: 50px;
+    justify-self: center;
 }
 
 .ndvideo {
@@ -597,6 +604,18 @@ p > span {
 
     .tekst {
         left: 3%;
+    }
+
+    .featurevideo {
+        justify-self: flex-start;
+    }
+
+    .videocontainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 90%;
     }
 }
 

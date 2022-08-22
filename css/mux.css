@@ -255,14 +255,21 @@ h2 {
     width: 90%;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 .project-description>p {
     width: 50%;
+    font-family: obviously;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .project-description-m>p {
     width: 93%;
+    font-family: obviously;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .tekst {
@@ -324,6 +331,10 @@ p > span {
     flex-grow: 1;
 }
 
+.swiper-wrapper {
+    display: flex;
+}
+
 .img1 {
     position: absolute;
     bottom: 60%;
@@ -336,7 +347,22 @@ p > span {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     animation-iteration-count: infinite;
     animation-duration: 18s;
+}
 
+.swiper-wrapper img:nth-child(3) {
+    margin-top: 40%;
+}
+
+.swiper-wrapper img:nth-child(5) {
+    margin-top: 40%;
+}
+
+.swiper-wrapper img:nth-child(6) {
+    margin-top: 40%;
+}
+
+.swiper-wrapper img:nth-child(8) {
+    margin-top: 40%;
 }
 
 .animationtwo {
@@ -451,6 +477,7 @@ p > span {
     flex-grow: 1;
     max-height: 1000px;
     margin-bottom: 50px;
+    justify-self: center;
 }
 
 .ndvideo {
@@ -480,6 +507,22 @@ p > span {
     .nav-menu.active {
         width: 70%;
         left: 15%;
+    }
+
+    .swiper-wrapper img:nth-child(3) {
+        margin-top: 25%;
+    }
+    
+    .swiper-wrapper img:nth-child(5) {
+        margin-top: 25%;
+    }
+    
+    .swiper-wrapper img:nth-child(6) {
+        margin-top: 25%;
+    }
+    
+    .swiper-wrapper img:nth-child(8) {
+        margin-top: 25%;
     }
 }
 
@@ -590,6 +633,10 @@ p > span {
 
     .tekst {
         left: 3%;
+    }
+
+    .featurevideo {
+        justify-self: flex-start;
     }
 }
 
