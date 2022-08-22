@@ -229,6 +229,7 @@ h1 {
     font-size: 40px;
     text-transform: uppercase;
     margin-bottom: 20px;
+    margin-left: -5px;
 }
 
 h2 {
@@ -428,9 +429,8 @@ p > span {
 }
 
 .videosektion {
-    width: 100vw;
-    height: 1000px;
-    padding-left: 5%;
+    width: 90vw;
+    margin-top: 100px;
 }
 
 .videosektion h1 {
@@ -441,14 +441,11 @@ p > span {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: flex-start;
     width: 90%;
-}
-
-.videocontainer video {
-    width: 100%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    -webkit-flex-direction: row;
+    -webkit-flex-wrap: wrap;    
+    -webkit-display: flex;
 }
 
 .featurevideo {
@@ -457,6 +454,7 @@ p > span {
 
 .ndvideo {
     max-width: 400px;
+    max-height: 300px;
     flex-basis: 40%;
 }
 
@@ -590,6 +588,10 @@ p > span {
 
     .tekst {
         left: 3%;
+    }
+
+    .featurevideo {
+        margin-right: 45%;
     }
 }
 

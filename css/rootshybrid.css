@@ -230,6 +230,7 @@ h1 {
     font-size: 40px;
     text-transform: uppercase;
     margin-bottom: 20px;
+    margin-left: -5px;
 }
 
 h2 {
@@ -459,6 +460,7 @@ p > span {
 
 .ndvideo {
     max-width: 400px;
+    max-height: 300px;
     flex-basis: 40%;
 }
 
@@ -498,9 +500,7 @@ p > span {
         margin-right: 20px;
     }
 
-   #secondparagraf {
-    margin-top: 45px;
-   }
+
 
     .project-reel-buttons {
         display: flex;
