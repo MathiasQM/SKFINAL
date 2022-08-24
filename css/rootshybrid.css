@@ -178,6 +178,7 @@ header {
     max-height: 800px;
     overflow: hidden;
     margin-bottom: 100px;
+    margin-top: 50px;
   }
 
   .swiper-slide {
@@ -440,6 +441,7 @@ p > span {
 
 .videosektion {
     width: 100vw;
+    overflow-x: hidden;
 }
 
 .videosektion h1 {
@@ -451,11 +453,11 @@ p > span {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    width: 100%;
+    width: 80%;
     padding-bottom: 150px;
 }
 
-.videocontainer video {
+.videocontainer video,iframe {
     width: 100%;
     margin-top: 5%;
     margin-left: 1%;
@@ -466,6 +468,11 @@ p > span {
     flex-grow: 1;
     padding-bottom: 50px;
     justify-self: center;
+    width: 50%;
+    height: 50%;
+    max-width: 960px;
+    min-height: 500px;
+    flex-basis: 100%;
 }
 
 .ndvideo {

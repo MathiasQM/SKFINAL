@@ -9,7 +9,7 @@ body {
     flex-wrap: wrap;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     width: 8px;
     height: 10px;
 }
@@ -26,7 +26,7 @@ body {
 
 ::-webkit-scrollbar-track {
     background: rgba(0, 0, 0, 0.2);
-}
+} */
 
 /*Navbar*/
 

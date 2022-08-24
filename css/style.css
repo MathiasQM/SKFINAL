@@ -669,13 +669,13 @@ div ul li.active {
 }
 
 .bank-of-materials {
-    background-image: url(../Media/Images/bank-of-materials/images/Untitled-6.jpg);
+    background-image: url(../Media/Images/bank-of-materials/images/Untitled-3-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .dayyani {
-    background-image: url(../Media/Images/dayyani/images/1.MAINpressphotosmallersize.webp);
+    background-image: url(../Media/Images/dayyani/images/1.MAINpressphotosmallersize.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: -20px;
@@ -729,6 +729,9 @@ div ul li.active {
     margin-right: 20px;
     margin-bottom: 20px;
     line-height: 20px;
+    font-family: obviously;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .approach-main-text>p>span {
