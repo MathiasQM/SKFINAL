@@ -288,6 +288,11 @@ h4 {
 p > span {
     font-size: 1.3rem;
 }
+
+#secondparagraf {
+    margin-top: 50px;
+} 
+
 .creator-tag {
     color: #d3d3d3;
 }
@@ -298,7 +303,7 @@ p > span {
     justify-content: space-between;
     position: fixed;
     bottom: 0;
-    width: 100vw;
+    width: 100%;
     background: rgba(102, 99, 99, 0.37);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(4.7px);
@@ -309,6 +314,7 @@ p > span {
 .project-reel-button>a {
     padding-right: 2%;
     font-size: 10px;
+
 }
 
 .project-reel-button {
@@ -320,16 +326,14 @@ p > span {
 .project-reel-button {
     display: flex;
     flex-direction: row;
-    width: 200px;
+    width: 100%;
 }
 
 .project-reel-button:nth-child(2) {
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
-    width: 250px;
-    padding-left: 0;
-    padding-right: 2%;
+    min-width: 250px;
     text-align: right;
 }
 
@@ -439,7 +443,7 @@ p > span {
 }
 
 .videosektion {
-    width: 100vw;
+    width: 90vw;
     overflow-x: hidden;
 }
 
@@ -515,8 +519,6 @@ p > span {
     .project-description-m p {
         margin-right: 20px;
     }
-
-
 
     .project-reel-buttons {
         display: flex;
@@ -615,6 +617,10 @@ p > span {
         left: 3%;
     }
 
+    #secondparagraf {
+        margin-top: 0px;
+    }
+
     .featurevideo {
         justify-self: flex-start;
     }
@@ -625,7 +631,7 @@ p > span {
         flex-wrap: wrap;
         justify-content: space-around;
         justify-content: flex-start;
-        width: 90%;
+        width: 100%;
     }
 }
 
