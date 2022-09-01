@@ -177,9 +177,9 @@ header {
     max-height: 800px;
     overflow: hidden;
     margin-bottom: 100px;
-  }
+}
 
-  .swiper-slide {
+.swiper-slide {
     text-align: center;
     font-size: 18px;
     background: none;
@@ -197,19 +197,19 @@ header {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-  }
+}
 
-  .swiper-wrapper img {
+.swiper-wrapper img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: contain;
-  }
+}
 
-  .swiper-button-next,
-  .swiper-button-prev {
+.swiper-button-next,
+.swiper-button-prev {
     color: white;
-  }
+}
 
 p,
 a {
@@ -242,9 +242,13 @@ h2 {
 }
 
 h4 {
-    font-family: obviously-wide, sans-serif; 
+    font-family: obviously-wide, sans-serif;
     position: relative;
     width: 100%;
+}
+
+#secondparagraf {
+    margin-top: 30px;
 }
 
 .project-description {
@@ -289,9 +293,11 @@ h4 {
     width: 80%;
     flex-grow: 1;
 }
-p > span {
+
+p>span {
     font-size: 1.3rem;
 }
+
 .creator-tag {
     color: #d3d3d3;
 }
@@ -420,7 +426,6 @@ p > span {
 }
 
 
-
 @keyframes glide {
     0% {
         bottom: -20%;
@@ -457,7 +462,7 @@ p > span {
     justify-content: flex-start;
     width: 100%;
     -webkit-flex-direction: row;
-    -webkit-flex-wrap: wrap;    
+    -webkit-flex-wrap: wrap;
     -webkit-display: flex;
 }
 
@@ -498,6 +503,10 @@ p > span {
 
 @media only screen and (min-width: 1000px) {
 
+    #secondparagraf {
+        margin-top: 0;
+    }
+
     .project-description-m {
         flex-direction: row;
         justify-content: flex-start;
@@ -528,8 +537,8 @@ p > span {
         font-size: 50px;
     }
 
-     /* Header CSS */
-     .synkron {
+    /* Header CSS */
+    .synkron {
         display: block;
         left: 5%;
         position: relative;
@@ -634,5 +643,19 @@ p > span {
 
     .project-description-m {
         width: 90%;
+    }
+
+    .small-video {
+        margin-right: 30px;
+        margin-top: 50px;
+    }
+}
+
+
+@media only screen and (min-width: 1900px) {
+
+    .small-video {
+        width: 51%;
+        margin-left: -1%;
     }
 }

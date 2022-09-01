@@ -179,9 +179,11 @@ header {
     overflow: hidden;
     margin-bottom: 100px;
     margin-top: 50px;
-  }
+    margin-left: 0;
+    margin-right: 0;
+}
 
-  .swiper-slide {
+.swiper-slide {
     text-align: center;
     font-size: 18px;
     background: none;
@@ -199,19 +201,19 @@ header {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-  }
+}
 
-  .swiper-wrapper img {
+.swiper-wrapper img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: contain;
-  }
+}
 
-  .swiper-button-next,
-  .swiper-button-prev {
+.swiper-button-next,
+.swiper-button-prev {
     color: white;
-  }
+}
 
 p,
 a {
@@ -244,7 +246,7 @@ h2 {
 }
 
 h4 {
-    font-family: obviously-wide, sans-serif; 
+    font-family: obviously-wide, sans-serif;
     position: relative;
     width: 100%;
 }
@@ -285,13 +287,14 @@ h4 {
     width: 80%;
     flex-grow: 1;
 }
-p > span {
+
+p>span {
     font-size: 1.3rem;
 }
 
 #secondparagraf {
     margin-top: 50px;
-} 
+}
 
 .creator-tag {
     color: #d3d3d3;
@@ -460,7 +463,8 @@ p > span {
     padding-bottom: 150px;
 }
 
-.videocontainer video,iframe {
+.videocontainer video,
+iframe {
     width: 100%;
     margin-top: 5%;
     margin-left: 1%;
@@ -474,7 +478,7 @@ p > span {
     width: 50%;
     height: 50%;
     max-width: 960px;
-    min-height: 500px;
+    min-height: 200px;
     flex-basis: 100%;
 }
 
@@ -495,6 +499,16 @@ p > span {
     .swiper-wrapper {
         top: 5%;
     }
+
+    .featurevideo {
+        min-height: 260px;
+    }
+}
+
+@media only screen and (min-width: 650px) {
+    .featurevideo {
+        min-height: 321px;
+    }
 }
 
 @media only screen and (min-width: 800px) {
@@ -505,6 +519,10 @@ p > span {
     .nav-menu.active {
         width: 70%;
         left: 15%;
+    }
+
+    .featurevideo {
+        min-height: 401px;
     }
 }
 
@@ -623,6 +641,7 @@ p > span {
 
     .featurevideo {
         justify-self: flex-start;
+        min-height: 500px;
     }
 
     .videocontainer {
@@ -664,7 +683,7 @@ p > span {
     }
 
     .videosektion {
-        
+
         margin-top: 250px;
     }
 }
