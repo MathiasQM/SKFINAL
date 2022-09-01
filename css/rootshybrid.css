@@ -642,6 +642,7 @@ iframe {
     .featurevideo {
         justify-self: flex-start;
         min-height: 500px;
+        margin-right: 35%;
     }
 
     .videocontainer {
