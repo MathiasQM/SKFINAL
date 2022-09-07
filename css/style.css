@@ -29,6 +29,14 @@ h1 {
     left: -25px;
 }
 
+#title {
+    font-size: 60px;
+    margin-bottom: 15px;
+    position: relative;
+    left: -25px;
+    padding-left: 5%;
+}
+
 h2 {
     font-size: 25px;
     line-height: 25px;
@@ -1635,8 +1643,8 @@ form h3 {
     z-index: 10000;
 }
 
-@media only screen and (max-height: 640px) {
+@media only screen and (max-height: 640px) and (min-width: 650px) {
     .work>h1 {
-        margin-top: 260px;
+        margin-top: 660px;
     }
 }
