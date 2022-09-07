@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="css/style.css">
     <meta name="description"
         content="Synkron startede som et kunstprojekt og har siden da udviklet sig til en virksomhed, som placerer sig i tvær feltet mellem kunst og design. Vores formål er at styrke fordybelsen og bygge bro mellem discipliner. Helt konkret arbejder vi tværdisciplinært med kompetencer indenfor fotografi, video, grafisk design, animation og installation med henblik på at udforme og understøtte kreative projekter.">
-    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
     <link rel="icon" href="Media/Identityassets/Relicon.png" type="image" sizes="16x16">
     <link rel="shortcut icon" type="image/x-icon" href="Media/Identityassets/Relicon.png">
     <title>Synkron</title>
@@ -150,7 +149,7 @@
 
         <span id="Our-work"></span>
         <section id="three">
-            <div class="work" sektioner>
+            <div class="work">
                 <h1>WORK</h1>
                 <div class="dropdown">
                     <button onclick="myFunction()" class="dropbtn prevent-select">Filters</button>
@@ -337,11 +336,11 @@
         <footer class="footer">
             <p>Stay in touch:</p>
             <a class="email mail-text">synkron.contact@gmail.com</a>
-            <a href="https://www.facebook.com/synkroniseret" class="somelink" href="">
+            <a href="https://www.facebook.com/synkroniseret" class="somelink">
                 <img src="Media/Images/icons8-facebook-48.png" style=" margin-right: 10px;" alt=""></a>
-            <a href="https://www.instagram.com/synkron_/" class="somelink" href="">
+            <a href="https://www.instagram.com/synkron_/" class="somelink">
                 <img src="Media/Images/icons8-instagram-48.png" style=" margin-right: 10px;" alt=""></a>
-            <a href="https://www.linkedin.com/company/synkronmedia/" class="somelink" href="">
+            <a href="https://www.linkedin.com/company/synkronmedia/" class="somelink">
                 <img src="Media/Images/icons8-linkedin-48.png" style=" margin-right: 10px;" alt=""></a>
         </footer>
 
@@ -352,11 +351,11 @@
 
     <!-- Scripts -->
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="JS/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script type="text/javascript">
+    <script>
         $(document).ready(function () {
             $('.list').click(function () {
                 const value = $(this).attr('data-filter');
@@ -392,7 +391,7 @@
             },
         });
     </script>
-    <script type="text/javascript" src="JS/lightbox-plus-jquery.min.js"></script>
+    <script src="JS/lightbox-plus-jquery.min.js"></script>
 </body>
 
 </html>
