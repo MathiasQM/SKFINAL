@@ -14,7 +14,7 @@ body {
 
 header {
     position: absolute;
-    background-color: none;
+    background: none;
     z-index: 1000;
     min-height: 200px;
 }
@@ -43,7 +43,7 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: none;
+    background: none;
     width: 100%;
     transition: 0.2s;
     position: absolute;
