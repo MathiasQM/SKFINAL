@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="css/lightbox.min.css">
   <meta name="description"
     content="Synkron startede som et kunstprojekt og har siden da udviklet sig til en virksomhed, som placerer sig i tvær feltet mellem kunst og design. Vores formål er at styrke fordybelsen og bygge bro mellem discipliner. Helt konkret arbejder vi tværdisciplinært med kompetencer indenfor fotografi, video, grafisk design, animation og installation med henblik på at udforme og understøtte kreative projekter.">
-  <link rel="icon" href="Media/Identityassets/Relicon.png" type="image" sizes="16x16">
+  <link rel="icon" href="Media/Identityassets/Relicon.png" type="image/x-icon" sizes="16x16">
   <link rel="shortcut icon" type="image/x-icon" href="Media/Identityassets/Relicon.png">
   <title>Bank Of Materials</title>
 </head>
@@ -178,23 +178,22 @@
       </div>
     </div>
 
-
-
+    <script src="JS/lightbox-plus-jquery.min.js"></script>
+    <script src="JS/index.js"></script>
+    
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
   </body>
-<script src="JS/lightbox-plus-jquery.min.js"></script>
-<script src="JS/index.js"></script>
 
-<!-- Swiper JS -->
-<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
-<!-- Initialize Swiper -->
-<script>
-  var swiper = new Swiper(".mySwiper", {
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });
-</script>
 
 </html>

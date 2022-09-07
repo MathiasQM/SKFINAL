@@ -1669,7 +1669,7 @@ form h3 {
     z-index: 10000;
 }
 
-@media only screen and (max-height: 640px), (min-width: 650px) {
+@media only screen and (max-height: 640px) and (min-width: 650px) {
     .work>h1 {
         margin-top: 660px;
     }
