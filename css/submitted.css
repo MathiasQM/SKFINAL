@@ -331,31 +331,6 @@ header {
         width: 30%;
     }
 
-    .image-container:nth-child(1) {
-        width: 60%;
-        position: relative;
-        top: 10%;
-        left: 10%;
-        filter: grayscale();
-    }
-
-    .image-container:nth-child(2) {
-        width: 50%;
-        position: relative;
-        top: 70%;
-        left: -5%;
-        filter: grayscale();
-    }
-
-    .image-container:nth-child(3) {
-        width: 40%;
-        position: relative;
-        top: -30%;
-        left: -20%;
-        filter: grayscale();
-    }
-
-
     /* Header CSS */
     .synkron {
         display: block;
